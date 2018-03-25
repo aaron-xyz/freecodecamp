@@ -1,0 +1,281 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Neuton', serif;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+/* Jumbotron */
+
+.jumbotron {
+	height: 100%;
+	width: 100%;
+	background: url(http://sfsa.it/wp-content/uploads/2016/09/feynman-lez-2.gif) no-repeat center;
+	padding: 0;
+	margin: 0;
+}
+
+.jumbotron h1 span {
+	background-color: rgba(207, 1, 0, 0.6);
+	color: #ccc;
+	margin-right: 85px;
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.jumbotron .up {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 20%;
+	font-family: 'Kalam', cursive;
+}
+
+.jumbotron .down {
+	text-transform: uppercase;
+}
+
+
+/* Main */
+
+main {
+	padding: 70px 150px 70px 150px;
+	background-color: #CF0131;
+	color: #fff;
+	margin: 0;
+}
+
+main h2 {
+	font-size: 350%;
+	margin: 0;
+}
+
+#introduction p {
+	font-family: 'Gilda Display', serif;
+	font-size: 150%;
+	font-weight: bold;
+	margin: 0;
+	margin-top: 30px;
+}
+
+
+/* Chronology */
+.year {
+	color: #CF0131;
+	font-size: 350%;
+	font-family: 'Kalam', cursive;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0;
+}
+
+#chronology .row {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+#chronology .col-md-9 {
+	padding: 10px 100px 10px 100px;
+	border-left: 2px solid red;
+}
+
+.event {
+	font-family: 'Kalam', cursive;
+	font-size: 150%;
+	margin: 0;
+}
+
+
+/* Resources */
+#resources {
+	text-align: center;
+	background-color: #555;
+	color: #bbb;
+	width: 100%;
+}
+
+#resources .col-md-12 {
+	padding-right: 0px;
+	width: 100%;
+	padding: 30px;
+}
+
+.par {
+	background-color: #555;
+}
+
+#resources p {
+	font-family: 'Neuton', cursive;
+	font-size: 150%;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+iframe {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 0;
+}
+
+
+/* Footer */
+footer {
+	width: 100%;
+	background: #111;
+}
+footer .row {
+	background-color: #111;
+	color: #ccc;
+	width: 100%;
+}
+
+footer ul {
+	list-style: none;
+	padding: 0;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	padding-left: 50px;
+}
+
+footer ul li {
+	display: inline;
+	margin-left: 15px;
+	font-size: 175%;
+}
+
+footer a {
+	color: #cf0131;
+}
+
+footer a:hover {
+	color: #bbb;
+}
+
+#created-by {
+	padding: 0;
+	margin: 0;
+	padding-top: 70px;
+	padding-right: 50px;
+	padding-bottom: 70px;
+	font-family: 'Gilda Display', cursive;
+	font-size: 120%;
+}
+
+ul,
+#created-by p {
+	margin: 0;
+}
+
+
+/**************/
+/* Responsive */
+/**************/
+@media screen and (max-height: 445px) {
+	.jumbotron .up {
+		padding-top: 5%;
+	}	
+}
+
+@media screen and (max-height: 260px) {
+	.jumbotron .up {
+		padding-top: 2%;
+	}	
+}
+
+
+@media screen and (max-width:981px) {
+	/* Main */
+	main {
+		padding: 30px 70px 30px 70px;
+	}
+	.jumbotron .up {
+		padding-top: 25%;
+	}
+	/* Chronology */
+	#chronology {
+		text-align: center;
+	}
+	/* Resources */
+	#resources .col-md-4 {
+		padding-top: 70px;
+	}
+	#resources h3 {
+		margin: 0;
+		padding-top: 30px;
+		text-transform: uppercase;
+	}
+	#resources p {
+		padding-left: 100px;
+		padding-right: 100px;
+		font-size: 120%;
+	}
+	/*  Footer  */
+	footer {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width:981px) {
+	/* Cover */
+	.jumbotron .up {
+		padding-top: 90%;
+	}
+	.jumbotron h1 span {
+		margin-right: 40px;
+		margin-top: 20px;
+		padding-left: 10px;
+		padding-right: 0px;
+	}
+	/* Chronology */
+	#chronology .col-md-9 {
+		padding: 10px 50px 10px 50px;
+	}
+}
+
+@media screen and (max-width:981px) {
+	/* main */
+	main {
+		padding: 30px 30px 30px 30px;
+		text-align: center;
+	}
+	/* Resources */
+	#resources p {
+		padding-left: 10px;
+		padding-right: 10px;
+		font-size: 120%;
+	}
+	#resources .row .col-md-4 {
+		height: 500px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#resources h3 {
+		margin: 0;
+		padding-top: 20px;
+	}
+	/* Footer */
+	footer ul {
+		padding: 50px 0 0 0;
+	}
+}
